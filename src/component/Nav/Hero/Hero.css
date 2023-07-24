@@ -1,0 +1,191 @@
+.left-container {
+  position: relative;
+}
+.hero {
+  background: url(../../../image/Background.png);
+  background-position: center;
+}
+.red-line {
+  text-decoration-line: line-through;
+  color: white;
+  text-decoration-color: red;
+}
+.head-span {
+  color: #0096ff;
+}
+span {
+  color: #0096ff;
+  font-weight: 600;
+}
+.heading {
+  position: absolute;
+  top: 72px;
+  left: 95px;
+  font-weight: 600;
+  color: white;
+  font-size: 45px;
+  width: 40%;
+}
+.list-container {
+  position: absolute;
+  top: 16rem;
+  left: 95px;
+}
+.para {
+  color: white;
+  padding-top: 1rem;
+  font-weight: 400;
+  font-size: 32px;
+}
+.icon {
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+.list-container .book {
+  display: flex;
+}
+.right-container {
+  position: absolute;
+  right: 95px;
+  top: 150px;
+  width: 549px;
+  height: 900px;
+  border-radius: 8px;
+  background-color: white;
+}
+.signup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.signup-btn {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2.5rem;
+}
+.text {
+  text-align: center;
+  color: #3c4852;
+}
+.plan {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 22px;
+  color: #3c4852;
+  margin-top: 1.5rem;
+}
+.total-container {
+  border-top: 2px solid #bebebe;
+  justify-content: center;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  gap: 1.5rem;
+  flex-direction: column;
+}
+.total-container .left {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 400;
+  font-size: 16px;
+  color: #3c4852;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.total-container .left {
+  margin-bottom: 0.75rem;
+}
+.price {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 3%;
+}
+.limited {
+  border: 2px solid #de4313;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: start;
+  position: relative;
+  border-radius: 0.5rem;
+  border-radius: 8px;
+  gap: 0.5rem;
+  background: linear-gradient(
+    135deg,
+    rgba(222, 67, 19, 0.2) 0%,
+    rgba(222, 67, 19, 0.2) 0.75%,
+    rgba(222, 67, 19, 0.2) 2.92%,
+    rgba(222, 68, 20, 0.2) 6.37%,
+    rgba(223, 69, 21, 0.2) 10.97%,
+    rgba(223, 72, 22, 0.2) 16.59%,
+    rgba(224, 75, 24, 0.2) 23.1%,
+    rgba(225, 80, 27, 0.2) 30.37%,
+    rgba(227, 86, 31, 0.2) 38.27%,
+    rgba(229, 94, 36, 0.2) 46.66%,
+    rgba(231, 104, 43, 0.2) 55.41%,
+    rgba(235, 117, 51, 0.2) 64.39%,
+    rgba(238, 132, 60, 0.2) 73.47%,
+    rgba(243, 149, 71, 0.2) 82.52%,
+    rgba(248, 169, 84, 0.2) 91.41%,
+    rgba(254, 193, 99, 0.2) 100%
+  );
+}
+.limited .limited-top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  color: #de4313;
+}
+.limited .limited-top .price {
+  color: #3c4852;
+}
+.limited .limited-bottom {
+  display: flex;
+  justify-content: start;
+  width: 100%;
+  gap: 0.5rem;
+  align-items: center;
+  color: #de4313;
+}
+.limited .limited-bottom .offer {
+  color: #de4313;
+}
+.gst {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.75rem;
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.btns {
+  display: flex;
+  gap: 1rem;
+  padding: 0 1.5rem;
+}
+.btns div,
+.btns button {
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.cancel-btn button {
+  color: #f77171;
+  border-radius: 4px;
+  border: 2px solid #f77171;
+  padding: 10px 0;
+  /* width: 61px; */
+}
+.pay-btn button {
+  padding: 10px 0;
+  border-radius: 4px;
+  border: 2px solid #47ba68;
+  background: #47ba68;
+  color: white;
+}

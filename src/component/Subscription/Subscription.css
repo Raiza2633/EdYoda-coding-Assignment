@@ -1,0 +1,48 @@
+.planContainer {
+  border: 2px solid #bebebe;
+  cursor: pointer;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 0.5rem;
+}
+.planContainer .left {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+.planContainer .left .button {
+  stroke: #bebebe;
+}
+.planContainer .left .content {
+  font-weight: 600;
+  font-size: 16px;
+}
+.planContainer .right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.planContainer .popover {
+  position: absolute;
+  top: 0;
+  left: 60px;
+  font-size: 12px;
+  width: 121px;
+  color: white;
+  border-radius: 0px 0px 4px 4px;
+  background: #f77171;
+  text-align: center;
+}
+.totalPriceText {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3c4852;
+}
+.monthlyPriceText {
+  font-weight: 600;
+  font-size: 16px;
+  color: #3c4852;
+}
